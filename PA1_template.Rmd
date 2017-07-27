@@ -128,5 +128,3 @@ library(lattice)
 xyplot(tidy_steps$steps~tidy_steps$interval|tidy_steps$wDay, type = 'l',
    xlab="Interval", ylab="Number of Steps")
 ```
-
-
